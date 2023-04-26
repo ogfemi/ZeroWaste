@@ -1,4 +1,4 @@
-require('dotenv').config({path:'zerowaste/.env'})
+require('dotenv').config()
 process.env.MONGO_URI = "mongodb+srv://Admin:vXtZ9j7tYBhjYIhM@zerowaste.ylulala.mongodb.net/test?retryWrites=true&w=majority"
 
 const Rest_DB_API = require("../src/scripts/restaurantsDB")
